@@ -4,7 +4,7 @@ This is the CLI Project for the Flatiron Bootcamp.
 CLI Project
 
 What Charity would you like to look up?
-To Consider one fo the Top 5, type 1-5 for option or type in org:
+To Consider one of the Top 5, type 1-5 for option or type in org:
 1. ijkldf
 2. fsldkjfds
 3. fsldfs
@@ -25,4 +25,3 @@ need to think of class and objects.
 who belongs to what. 
 
 Site: https://www.charitynavigator.org/
-
