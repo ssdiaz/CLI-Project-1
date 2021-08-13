@@ -3,14 +3,27 @@ require 'open-uri'
 
 ## Replace this with the site you want to try scraping. 
 ## Make sure it's a string.
-site = "https://www.charitynavigator.org/index.cfm?bay=search.alpha"
+site = "https://www.sephora.com/beauty/beauty-best-sellers"
 
 ## When you first edit this file, the page will refresh - don't worry, that's normal and it's just making you your very own copy of the ScraperChecker.
 
 ## Now we're asking Nokogiri to go out and get the page data and store it in a variable called doc. Feel free to rename the variable to `page`, `data` or even `giraffe` but remember that descriptive variables are a developers best friend. 
 doc = Nokogiri::HTML(open(site))
 
-puts doc
+## puts doc
+## results = doc.css ("ul.accordion-item-bd li a") 
+
+## results = doc.css (".leftnav ul.accordion-item-bd li")
+
+## ul.accordion-item-bd li"
+
+## puts results.count
+
+## results.each do |i|
+ ##   puts i.text
+## end
+
+
 # if the result is an empty array [], the content you want is probably being loaded with javascript. Once you are sure you are getting data, comment out `puts doc` as it's probably going to return you a big mess (that's a good thing!)
 
 # Now let's start looking at this `doc`. 
@@ -48,5 +61,5 @@ puts doc
 
 ## ***********
 
- "Finished running code"
+"Finished running code"
 # This line stops us seeing the sometimes very long return values of Nokogiri. Feel free to uncomment it if you don't want it.

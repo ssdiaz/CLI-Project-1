@@ -3,6 +3,17 @@ This is the CLI Project for the Flatiron Bootcamp.
 
 CLI Project
 
+How would you like to search?
+AZ Star-Rated Directory
+4-STart Charities
+Recently Udpdated Star Ratings
+New Star-Rated Charities
+Browse Categoies
+CN Advisories
+4-Star International Charities
+Advnaced Search
+
+
 What Charity would you like to look up?
 To Consider one of the Top 5, type 1-5 for option or type in org:
 1. ijkldf
